@@ -1,0 +1,2451 @@
+{
+  "settings": {
+    "name": "ADPHOTO",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "colorm",
+      "title": "ColorM",
+      "styling": {
+        "primaryColor": "#f1c40f",
+        "buttonsColor": "#000000",
+        "secondaryColor": "#9b59b6",
+        "successColor": "#2ecc71",
+        "infoColor": "#3498db",
+        "warningColor": "#f1c40f",
+        "dangerColor": "#e74c3c",
+        "titleFont": "Arvo",
+        "subtitleFont": "Montserrat",
+        "textFont": "Lato",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
+      }
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 70,
+    "versionPublish": "3.12.1"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Adphoto Philippines",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.7rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.758rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#222f3d"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#2f4154!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#34495e"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f1c40f!important"
+            },
+            ".btn": {
+              "font-size": "12px"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "bgColor": "#34495e",
+            "fontSize": "0.7",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/adphoto-logo-white-507x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-p\">OUR WORK</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content5-1e\" aria-expanded=\"false\">TEAR SHEETS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">BLOG</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts3-y\" aria-expanded=\"false\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://www.facebook.com/AdphotoInc/\" target=\"_blank\"><span class=\"etl-icon icon-facebook mbr-iconfont mbr-iconfont-btn\"></span>visit us on FB</a></li>"
+        },
+        {
+          "_styles": {
+            ".elements-content": {
+              "padding-bottom": "50px"
+            },
+            ".mbr-section-subtitle": {
+              "letter-spacing": "2px",
+              "margin-bottom": "10px",
+              "font-weight": "700",
+              "font-size": "12px",
+              "color": "#000000",
+              "font-family": "'Arvo', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i"
+            },
+            ".mbr-section-title, .tab-pane": {
+              "color": "#000"
+            },
+            ".header-text": {
+              "color": "#dddddd"
+            },
+            ".mbr-section-title": {
+              "font-size": "36px",
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#ffffff",
+              "font-size": "11px",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            "B": {
+              "color": "#000000",
+              "font-size": "12px",
+              "font-family": "'Arvo', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i"
+            }
+          },
+          "arrowDown": "@THEME_PATH@/components/_images/header/arrowDown.png",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header9",
+          "_anchor": "header9-n",
+          "_params": {
+            "tabs": "4",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/2013-gnie-arambulo-special-effects-hibiscus-advertising-manila-phiilippines-b-2000x1263.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#eeeeee",
+            "showHeader": true,
+            "showText": false,
+            "showImages": true,
+            "showTitles": true
+          },
+          "title": "<br><br><br>The Premier Advertising and Commercial Photography Studio in the Philippines",
+          "text": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit asperiores itaque vero facere laudantium voluptas temporibus mollitia, nisi deleniti illo minima quisquam corporis possimus nesciunt.",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header9-n\" aria-expanded=\"false\">ABOUT US</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header9-n\" aria-expanded=\"true\">photographer</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header9-n\" aria-expanded=\"false\">equipments</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header9-n\" aria-expanded=\"true\">facilities</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header9-n\" aria-expanded=\"true\">Amazing</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header9-n\">Beautiful</a></li>",
+          "media11": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/who-we-are-750x600.png",
+              "class": "card-img-top",
+              "active": true,
+              "link": "index.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media21": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "users",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "index.html",
+              "size": 0,
+              "color": "@primaryColor",
+              "newWindow": false
+            }
+          },
+          "title1": "FOR MORE THAN 40 YEARS, ADVERTISING AGENCIES AND CLIENTS HAVE TRUSTED US TO CAPTURE POWERFUL COMMERCIAL IMAGES USING STATE OF THE ART HARDWARE AND SOFTWARE.",
+          "text1": "ADPHOTO, INC., located in Makati, Metro Manila, is one of the longest-running full-service commercial photography studios in the Philippines. A well-respected studio, it does advertising photography, production management, studio rental, and more. Since 1973, we have been creating images for advertising and corporate requirements across the archipelago. Clients rely on Adphoto’s expertise in various aspects of advertising photography, from aerial, architecture, automotive, still life photography like food, product and special effects, to fashion and lifestyle. Our extensive photo portfolio attests to the versatility of our work, which earned us accolades from prestigious advertising award-giving bodies, including Araw, Spikes Asia, and Cannes Lion, and other organizations.<br><br>Our photography philosophy is not just about shooting great pictures to help you sell your products or services. ADPHOTO, INC. has the credibility and dedication to help you achieve your complete creative vision in one perfect shot. <br><br><b>SOCIAL COMMITMENT</b><br>Adphoto is passionate about making magic through photography – both in advertising and in our communities. See our advocacies here.&nbsp;<br>",
+          "media12": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/photogs-1-449x558.png",
+              "class": "card-img-top",
+              "active": true,
+              "link": "index.html#team1-s",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media22": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "camera",
+              "family": "et-line",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor"
+            }
+          },
+          "title2": "OUR PHOTOGRAPHERS",
+          "text2": "They are masters of their craft and are considered as true professionals in the field. Each of them brings his/her own artistic expression. techniques, and expertise.&nbsp;<br><br><b>CLICK PHOTOS TO SEE MORE...</b>",
+          "media13": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/equipments-1-749x524.png",
+              "class": "card-img-top",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media23": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "setting",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor"
+            }
+          },
+          "title3": "WHATEVER SHOOTING REQUIREMENTS YOU HAVE, WE HAVE EQUIPMENT TO MATCH.",
+          "text3": "<b>CAMERAS</b> <b>AND</b> <b>LENSES</b><br>Adphoto’s medium and large format imaging systems as well as 35mm DSLRs with a wide range of highly specialized lenses give you sharp, full color and high-impact images with the highest resolution possible for print ads, posters, billboards, and other full-sized public installations. <br><br><b>LIGHTING SYSTEM</b><br>With over 60 flash heads and an extensive range of accessories, we can hold up to 3 simultaneous major photo shoots. We also use the world’s fastest flash system to capture the swiftest actions of special effect shots, architectural photography, and talent photography.<br>",
+          "media14": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/facilities-749x524.png",
+              "class": "card-img-top",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media24": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "idea",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor"
+            }
+          },
+          "title4": "",
+          "text4": "<p>Adphoto's two large-scale studios can accommodate all photography set-ups from portraits to automotive shoots. It features convenience and comfort for talents and crew with fully-equipped studio kitchens; dressing and make-up rooms; guest rooms for overnight shoots; and generators for uninterrupted power supply. The studios are also fully-airconditioned and provide free Wifi access. &nbsp;<span style=\"line-height: 1.85em;\">&nbsp;</span><b style=\"line-height: 1.85em;\">SEE MORE...</b></p>",
+          "media15": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nb5.png",
+              "class": "card-img-top",
+              "active": true
+            }
+          },
+          "media25": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "genius",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "title5": "IMAGE/CONTENT SLIDER",
+          "text5": "Create a responsive, touch-swipe slideshow with <a href=\"http://mobirise.com\">Mobirise bootstrap slider</a>. Add images, text, buttons to slides, set autoplay, full-screen, full-width or boxed layout. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde sunt, illo quo ipsa. Laboriosam voluptatem sunt nisi velit incidunt labore, sapiente pariatur ipsam fugiat doloremque asperiores eos ipsum, eveniet cum.",
+          "media16": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nb6.png",
+              "class": "card-img-top",
+              "active": true
+            }
+          },
+          "media26": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "title6": "CONTACT FORMS",
+          "text6": "Easily add subscribe and contact forms without any server-side integration. Just link your email to form and get submissions instantly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium id perspiciatis, sint odit error animi veniam omnis cupiditate distinctio, a quidem deleniti laborum maiores optio laudantium earum vel! Sint, rerum."
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-weight": "700",
+              "font-size": "48px"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "letter-spacing": "2px",
+              "color": "#fff",
+              "font-size": "12px"
+            },
+            ".btn": {
+              "font-size": "12px"
+            },
+            ".mbr-section-title SPAN": {
+              "color": "#eeeeee"
+            }
+          },
+          "title1": "Bootstrap 4",
+          "title2": "Responsive",
+          "title3": "Web Fonts",
+          "title4": "Unlimited Sites",
+          "title5": "Trendy Website Blocks",
+          "title6": "Host Anywhere",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-p",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/03.jpg",
+            "bgColor": "#7f8c8d",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#2c3e50",
+            "showTitle": true,
+            "columns": "3",
+            "showImages": true,
+            "showTitles": true,
+            "ShowTexts": false,
+            "showButtons": false
+          },
+          "title": "<span style=\"font-weight: normal;\">Our Portfolio</span>",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/aerial-adphoto-600x600.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "phone",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle1": "aerial",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "buttons1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">learn more</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/architecture-adphoto-600x600.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "edit",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle2": "architecture",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "buttons2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/2016-gnie-arambulo-automobile-nissan-juke-yellow-advertising-manila-philippines-600x600.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle3": "automotive",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "buttons3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/talent-gnie-fashionhighlife-600x600.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle4": "fashion &amp; lifestyle",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "buttons4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/2015-gnie-arambulo-celebrity-bamboo-advertising-manila-philippines-600x600.png",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle5": "celebrities/personalities",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "buttons5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/features/06.jpg",
+              "class": "features-img",
+              "width": 600
+            },
+            "iconFont": {
+              "active": false,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "buttons6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-weight": "700",
+              "font-size": "48px"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "letter-spacing": "2px",
+              "color": "#fff",
+              "font-size": "12px"
+            },
+            ".btn": {
+              "font-size": "12px"
+            }
+          },
+          "title1": "Bootstrap 4",
+          "title2": "Responsive",
+          "title3": "Web Fonts",
+          "title4": "Unlimited Sites",
+          "title5": "Trendy Website Blocks",
+          "title6": "Host Anywhere",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-r",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "file:///Users/nathan/Library/Application%20Support/Mobirise.com/Mobirise/projectData/03_4.jpg",
+            "bgColor": "#95a5a6",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#2c3e50",
+            "showTitle": false,
+            "columns": "3",
+            "showImages": true,
+            "showTitles": true,
+            "ShowTexts": false,
+            "showButtons": false
+          },
+          "title": "<span style=\"font-weight: normal;\">Our Work</span>",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/talent-gnie-fashionhighlife-600x600.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "phone",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle1": "fashion &amp; lifestyle",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "buttons1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">learn more</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/2015-gnie-arambulo-celebrity-bamboo-advertising-manila-philippines-600x600.png",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "edit",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle2": "celebrities/personalities",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "buttons2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/original2015-gnie-arambulo-food-ramen-advertising-manila-philippines-600x603.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle3": "food",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "buttons3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "file:///Users/nathan/Library/Application%20Support/Mobirise.com/Mobirise/projectData/talent_gnie_fashion+highlife-600x600_3.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle4": "fashion &amp; lifestyle",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "buttons4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "file:///Users/nathan/Library/Application%20Support/Mobirise.com/Mobirise/projectData/2015-gnie-arambulo-celebrity-bamboo-advertising-manila-philippines-600x600_3.png",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle5": "celebrities/personalities",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "buttons5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "file:///Users/nathan/Library/Application%20Support/Mobirise.com/Mobirise/projectData/06_4.jpg",
+              "class": "features-img",
+              "width": 600
+            },
+            "iconFont": {
+              "active": false,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "buttons6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-weight": "700",
+              "font-size": "48px"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "letter-spacing": "2px",
+              "color": "#fff",
+              "font-size": "12px"
+            },
+            ".btn": {
+              "font-size": "12px"
+            }
+          },
+          "title1": "Bootstrap 4",
+          "title2": "Responsive",
+          "title3": "Web Fonts",
+          "title4": "Unlimited Sites",
+          "title5": "Trendy Website Blocks",
+          "title6": "Host Anywhere",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-q",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "file:///Users/nathan/Library/Application%20Support/Mobirise.com/Mobirise/projectData/03_3.jpg",
+            "bgColor": "#7f8c8d",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#2c3e50",
+            "showTitle": false,
+            "columns": "3",
+            "showImages": true,
+            "showTitles": true,
+            "ShowTexts": false,
+            "showButtons": false
+          },
+          "title": "<span style=\"font-weight: normal;\">Our Work</span>",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/ultimo-600x600.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "phone",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle1": "aerial",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "buttons1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">learn more</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/2013-gnie-arambulo-special-effects-tulip-advertising-manila-phiilippines-600x600.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "edit",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle2": "architecture",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "buttons2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/2012-john-chua-banaue-terrace-sierra-bullione-advocacy-philippiness-600x600.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle3": "automotive",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "buttons3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "file:///Users/nathan/Library/Application%20Support/Mobirise.com/Mobirise/projectData/talent_gnie_fashion+highlife-600x600_2.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle4": "fashion &amp; lifestyle",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "buttons4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "file:///Users/nathan/Library/Application%20Support/Mobirise.com/Mobirise/projectData/2015-gnie-arambulo-celebrity-bamboo-advertising-manila-philippines-600x600_2.png",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle5": "celebrities/personalities",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "buttons5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "file:///Users/nathan/Library/Application%20Support/Mobirise.com/Mobirise/projectData/06_3.jpg",
+              "class": "features-img",
+              "width": 600
+            },
+            "iconFont": {
+              "active": false,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "buttons6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>"
+        },
+        {
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "team1",
+          "_styles": {
+            "H1": {
+              "font-size": "36px"
+            },
+            ".text2": {
+              "font-size": "15px"
+            },
+            ".title2": {
+              "color": "#000000"
+            },
+            ".text3": {
+              "font-size": "17px",
+              "color": "#ecf0f1"
+            },
+            ".text4": {
+              "font-size": "13px",
+              "color": "#ecf0f1"
+            },
+            ".title1": {
+              "font-size": "25px"
+            }
+          },
+          "_anchor": "team1-s",
+          "_params": {
+            "rows": "2",
+            "bgItem1": "#f1c40f",
+            "bgItem2": "#27ae60",
+            "bgItem3": "#2980b9",
+            "bgItem4": "#d35400",
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": false,
+            "bgImage": "@THEME_PATH@/components/_images/pricing-table/pricing-table-bg.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": false
+          },
+          "title": "Our Visual Interpreters",
+          "subtitle": "They are masters of their craft and are considered as true professionals in the field. Each of them brings his/her own artistic expression. techniques, and expertise.&nbsp;",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/exploding-bulb-600x611.png",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "person1": "They are masters of their craft and are considered as true professionals in the field. <br><br>Each of them brings his/her own artistic expression. techniques, and expertise.&nbsp;",
+          "subtitle1": "",
+          "caption1": "",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/g-nie-arambulo-600x611.png",
+              "class": "features-img",
+              "width": 600,
+              "link": "G-nie Arambulo.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "person2": "G-NIE ARAMBULO",
+          "subtitle2": "PHILIPPINE'S TOP ADVERTISING FILIPINA PHOTOGRAPHER",
+          "caption2": "G-nie found her love of photography while art-directing shoots as an Adphoto client in 1992. After she joined Adphoto, John mentored her and helped her become the country’s most awarded advertising photographer. She is currently the only Filipino member of the elite Master Photographers Association (MPA) based in the UK. Her high-speed special effects shots of Boysen Paints earned a number of accolades from international advertising award-giving organizations, including Spikes and Cannes Lion.",
+          "person3": "JOHN K. CHUA",
+          "subtitle3": "CANON PHILIPPINE'S AWARDEE",
+          "caption3": "Architectural, talent, advertising and commercial photographer extraordinaire, John is best known for his technical excellence and mastery of notoriously challenging photo shoots – to the delight of clients who envision the seemingly impossible. With more than forty years of experience under his belt, John has moved with ease from one genre of photography to another, earning numerous awards along the way.",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/john-chua-600x611.png",
+              "class": "features-img",
+              "width": 600,
+              "link": "John Chua.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "person4": "ROBERT BOSITO",
+          "subtitle4": "FOOD &amp; PRODUCT PHOTOGRAPHER",
+          "caption4": "With 18 years of experience working as a photographer’s assistant, Robert Bosito has gone through all types of shoots in any situation imaginable. In fact, most know Robert as Obet, G-nie’s loyal and trusty assistant. After much encouragement from G-nie and the rest of the Adphoto team, he is now a full pledged photographer. He has mastered the technicalities of both food and product photography with an expanding portfolio on talent, architectural and special effects. But his humble beginnings fuels his passion in sharing with new assistants and photographers of Adphoto the technical expertise as well as the life lessons he’s gathered in his years of experience with Adphoto. This makes him truly invaluable, and a remarkable master photographer in the making.",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/robert-bosito-600x611.png",
+              "class": "features-img",
+              "width": 600,
+              "link": "Robert Bosito.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "60px"
+            }
+          },
+          "_anchor": "content5-1e",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#169581",
+            "showTitle": true,
+            "showCaption": false
+          },
+          "title": "TEAR SHEETS",
+          "caption": "<p>Article header with background image and parallax effect.</p>"
+        },
+        {
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_params": {
+            "customSize": false,
+            "customWidth": "1600",
+            "customHeight": "1080",
+            "size": "640x480",
+            "slides": [
+              {
+                "src": "@PROJECT_PATH@/assets/images/tearsheets01-3-2000x1500.png",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/tearsheets01-3-640x480.jpg",
+                "title": "title 1",
+                "text": "text 1",
+                "tooltip": "@PROJECT_PATH@/assets/images/tearsheets01-3-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/tearsheets02-2-2000x1500.png",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/tearsheets02-2-640x480.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/tearsheets02-2-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/tearsheets03-1-2000x1500.png",
+                "active": true,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/tearsheets03-1-640x480.jpg",
+                "title": "title 3",
+                "text": "text 3",
+                "tooltip": "@PROJECT_PATH@/assets/images/tearsheets03-1-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/tearsheets04-2000x1500.png",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/tearsheets04-640x480.jpg",
+                "title": "title 3",
+                "text": "text 3",
+                "tooltip": "@PROJECT_PATH@/assets/images/tearsheets04-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/tearsheets05-1-2000x1500.png",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/tearsheets05-1-640x480.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/tearsheets05-1-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/tearsheets06-1-2000x1500.png",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/tearsheets06-1-640x480.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/tearsheets06-1-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/tearsheets07-1-2000x1500.png",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/tearsheets07-1-640x480.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/tearsheets07-1-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/tearsheets08-1-2000x1500.png",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/tearsheets08-1-640x480.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/tearsheets08-1-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/tearsheets09-1-2000x1500.png",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/tearsheets09-1-640x480.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/tearsheets09-1-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/tearsheets10-2000x1500.png",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/tearsheets10-640x480.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/tearsheets10-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/tearsheets11-1-2000x1500.png",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/tearsheets11-1-640x480.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/tearsheets11-1-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/tearsheets12-1-2000x1500.png",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/tearsheets12-1-640x480.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/tearsheets12-1-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/tearsheets13-1-2000x1500.png",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/tearsheets13-1-640x480.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/tearsheets13-1-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/tearsheets14-1-2000x1500.png",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/tearsheets14-1-640x480.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/tearsheets14-1-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/tearsheets15-1-2000x1500.png",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/tearsheets15-1-640x480.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/tearsheets15-1-85x48.png"
+              }
+            ],
+            "theme": "box",
+            "bgColor": "#dddddd",
+            "animType": "cube",
+            "autoplay": true,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "fullScreen": true,
+            "showBullets": true,
+            "timeout": 2,
+            "duration": 2,
+            "height": "480",
+            "width": "640",
+            "responsive": "1",
+            "showCaptions": false,
+            "captionsEffect": "slide",
+            "hideControls": true
+          },
+          "_anchor": "wowslider-1f",
+          "articleLayout": false
+        },
+        {
+          "_styles": {
+            ".form-control-label": {},
+            ".mbr-section-title": {
+              "font-size": "20px"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-y",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/contact-us-pic-2000x622.png",
+            "bgColor": "#eeeeee",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#ecf0f1",
+            "showCat1": true,
+            "showCat2": true,
+            "showCat3": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "cat1": "address",
+          "title1": "3688 Bautista Street, Palanan, Makati City 1235 Philippines",
+          "cat2": "phone",
+          "title2": "(+63) 2 831.6117",
+          "cat3": "email",
+          "title3": "info@adphoto.com.ph or<div>celine@adphoto.com.ph</div><br><div>ENRIQUE STUDIO (BY APPOINTMENT)</div>",
+          "text": "4987 Enrique St., Palanan, Makati City 1235 Philippines<br>T : + 63 906 628 8018<br>Office Hours:<br>8am - 6pm Mondays to Fridays<br>Shoots outside office hours can be arranged.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-pinterest\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.facebook.com/AdphotoInc/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-facebook\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-skype\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin\"></span></a>",
+          "form": {
+            "action": "info@adphoto.com.ph",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Full Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Subject"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "formButton": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map1",
+          "_anchor": "map1-x",
+          "_params": {
+            "googleMap": {
+              "address": "3688 Bautista Street, Palanan, Makati City 1235 Philippines",
+              "placeId": "ChIJCZoLVnDJlzMRzolwYIuWypY",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-z",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017&nbsp;ADPHOTO, Inc."
+        },
+        {
+          "_styles": {
+            ".btn-social": {
+              "color": "#fff",
+              "height": "60px",
+              "width": "60px",
+              "line-height": "60px",
+              "font-size": "2rem"
+            },
+            ".mbr-section-title": {
+              "color": "#fff",
+              "font-size": "60px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-10",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/2015-john-chua-aerial-corregidor-inn-manila-philippines-2000x914.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.4,
+            "overlayColor": "#35a0c6",
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "SHARE THIS PAGE!"
+        }
+      ]
+    },
+    "G-nie Arambulo.html": {
+      "settings": {
+        "title": "Shots by G-Nie Arambulo | Adphoto Advertising Photography Philippines | Makati City, Metro Manila",
+        "meta_descr": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".imgTitle": {
+              "font-size": "48px"
+            },
+            ".mbr-section-text": {
+              "color": "#ffffff",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            }
+          },
+          "subtitle1": "Bootstrap 4 has been noted",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features10",
+          "_anchor": "features10-1g",
+          "_params": {
+            "bgText": "G-NIE",
+            "imageSize": "50",
+            "paddingTop": "4",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "bgColor": "#27ae60",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.6,
+            "overlayColor": "#2c3e50",
+            "showBgText": true,
+            "showTitles": false,
+            "ShowTexts": true,
+            "showButtons": false,
+            "showImages": true,
+            "showImgTitles": true
+          },
+          "title2": "About us",
+          "title1": "Bootstrap 4",
+          "caption1": "G-nie found her love of photography while art-directing shoots as an Adphoto client in 1992. After she joined Adphoto, John mentored her and helped her become the country’s most awarded advertising photographer. She is currently the only Filipino member of the elite Master Photographers Association (MPA) based in the UK. Her high-speed special effects shots of Boysen Paints earned a number of accolades from international advertising award-giving organizations, including Spikes and Cannes Lion.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">scroll below&nbsp;<span class=\"cm-icon cm-icon-arrowright mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/static1-600x750.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "G-nie Arambulo"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.7rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.758rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#222f3d"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#2f4154!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#34495e"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f1c40f!important"
+            },
+            ".btn": {
+              "font-size": "12px"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-11",
+          "_params": {
+            "bgColor": "#34495e",
+            "fontSize": "0.7",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/adphoto-logo-white-507x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-p\">OUR WORK</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content5-1e\" aria-expanded=\"false\">TEAR SHEETS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">BLOG</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts3-y\" aria-expanded=\"false\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://www.facebook.com/AdphotoInc/\" target=\"_blank\"><span class=\"etl-icon icon-facebook mbr-iconfont mbr-iconfont-btn\"></span>visit us on FB</a></li>"
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": "2",
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/architecture-g-niearambulo-2000x1448-800x579.jpg",
+                "image": "@PROJECT_PATH@/assets/images/architecture-g-niearambulo-2000x1448.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/architecture-g-niearambulo-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/architecture-g-niearambulo-2000x1332.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/architecture-g-niearambulo-2000x1413-800x565.jpg",
+                "image": "@PROJECT_PATH@/assets/images/architecture-g-niearambulo-2000x1413.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/architecture-g-niearambulo-2000x1078-800x431.jpg",
+                "image": "@PROJECT_PATH@/assets/images/architecture-g-niearambulo-2000x1078.jpg",
+                "caption": "Type caption here",
+                "active": false
+              }
+            ],
+            "spacing": "0",
+            "showText": false,
+            "filter": false,
+            "bgColor": "#FFFFFF",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-1h",
+          "articleLayout": false,
+          "allItem": "ALL",
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrowleft.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrowright.png\">"
+        },
+        {
+          "_styles": {
+            ".btn-social": {
+              "color": "#fff",
+              "height": "60px",
+              "width": "60px",
+              "line-height": "60px",
+              "font-size": "2rem"
+            },
+            ".mbr-section-title": {
+              "color": "#fff",
+              "font-size": "60px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-1j",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/2015-john-chua-aerial-corregidor-inn-manila-philippines-2000x9142.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.4,
+            "overlayColor": "#35a0c6",
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "SHARE THIS PAGE!"
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-12",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017&nbsp;ADPHOTO, Inc."
+        }
+      ]
+    },
+    "John Chua.html": {
+      "settings": {
+        "title": "Shots by John K. Chua | Adphoto Advertising Photography Philippines | Makati City, Metro Manila",
+        "meta_descr": ""
+      },
+      "components": [
+        {
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/features/03.jpg",
+              "class": ""
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials3",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "testimonials3-1p",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1328.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#2980b9",
+            "bgCardImage": "@PROJECT_PATH@/assets/images/johnk-2000x2510.png",
+            "showText": true,
+            "showTitle": true,
+            "showSubtitle": true,
+            "showButtons": false
+          },
+          "text": "Architectural, talent, advertising and commercial photographer extraordinaire, John is best known for his technical excellence and mastery of notoriously challenging photo shoots – to the delight of clients who envision the seemingly impossible. With more than forty years of experience under his belt, John has moved with ease from one genre of photography to another, earning numerous awards along the way.",
+          "title": "JOHN K. CHUA",
+          "subtitle": "AWARDEE, CANON PHILIPPINES",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">learn more</a>",
+          "arrowDown": "@THEME_PATH@/components/_images/header/arrowDown.png"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.7rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.758rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#222f3d"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#2f4154!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#34495e"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f1c40f!important"
+            },
+            ".btn": {
+              "font-size": "12px"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-1l",
+          "_params": {
+            "bgColor": "#34495e",
+            "fontSize": "0.7",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/adphoto-logo-white-507x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-p\">OUR WORK</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content5-1e\" aria-expanded=\"false\">TEAR SHEETS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">BLOG</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts3-y\" aria-expanded=\"false\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://www.facebook.com/AdphotoInc/\" target=\"_blank\"><span class=\"etl-icon icon-facebook mbr-iconfont mbr-iconfont-btn\"></span>visit us on FB</a></li>"
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": "2",
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/aerial-johnchua-2000x1353-800x541.jpg",
+                "image": "@PROJECT_PATH@/assets/images/aerial-johnchua-2000x1353.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/aerial-johnchua-1-2000x1353-800x541.jpg",
+                "image": "@PROJECT_PATH@/assets/images/aerial-johnchua-1-2000x1353.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/aerial-johnchua-2000x1300-800x520.jpg",
+                "image": "@PROJECT_PATH@/assets/images/aerial-johnchua-2000x1300.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/architecture-johnchua-2000x1433-800x573.jpg",
+                "image": "@PROJECT_PATH@/assets/images/architecture-johnchua-2000x1433.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/architecture-johnchua-2000x920-800x368.jpg",
+                "image": "@PROJECT_PATH@/assets/images/architecture-johnchua-2000x920.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/architecture-johnchua-2000x1980-800x792.png",
+                "image": "@PROJECT_PATH@/assets/images/architecture-johnchua-2000x1980.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/architecture-johnchua-2000x1586-800x634.png",
+                "image": "@PROJECT_PATH@/assets/images/architecture-johnchua-2000x1586.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/automotive-johnchua-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/automotive-johnchua-2000x1333.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/automotive-johnchua-2000x1526-800x610.jpg",
+                "image": "@PROJECT_PATH@/assets/images/automotive-johnchua-2000x1526.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/automotive-johnchua-1-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/automotive-johnchua-1-2000x1333.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/automotive-johnchua-2000x1193-800x477.jpg",
+                "image": "@PROJECT_PATH@/assets/images/automotive-johnchua-2000x1193.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/food-johnchua-2000x1373-800x549.jpg",
+                "image": "@PROJECT_PATH@/assets/images/food-johnchua-2000x1373.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/food-johnchua-2000x1380-800x552.jpg",
+                "image": "@PROJECT_PATH@/assets/images/food-johnchua-2000x1380.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/food-johnchua-2000x1493-800x597.jpg",
+                "image": "@PROJECT_PATH@/assets/images/food-johnchua-2000x1493.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/food-johnchua-2000x2700-800x1080.jpg",
+                "image": "@PROJECT_PATH@/assets/images/food-johnchua-2000x2700.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/specialeffects-johnchua-2000x1293-800x517.jpg",
+                "image": "@PROJECT_PATH@/assets/images/specialeffects-johnchua-2000x1293.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/specialeffects-johnchua-2000x1313-800x525.jpg",
+                "image": "@PROJECT_PATH@/assets/images/specialeffects-johnchua-2000x1313.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/specialeffects-johnchua-2000x1240-800x496.jpg",
+                "image": "@PROJECT_PATH@/assets/images/specialeffects-johnchua-2000x1240.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/specialeffects-johnchua-2000x1186-800x474.jpg",
+                "image": "@PROJECT_PATH@/assets/images/specialeffects-johnchua-2000x1186.jpg",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lifestyle-g-niearambulo-2000x1118-800x447.jpg",
+                "image": "@PROJECT_PATH@/assets/images/lifestyle-g-niearambulo-2000x1118.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": "0",
+            "showText": false,
+            "filter": false,
+            "bgColor": "#FFFFFF",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-1m",
+          "articleLayout": false,
+          "allItem": "ALL",
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrowleft.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrowright.png\">"
+        },
+        {
+          "_styles": {
+            ".btn-social": {
+              "color": "#fff",
+              "height": "60px",
+              "width": "60px",
+              "line-height": "60px",
+              "font-size": "2rem"
+            },
+            ".mbr-section-title": {
+              "color": "#fff",
+              "font-size": "60px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-1n",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/2015-john-chua-aerial-corregidor-inn-manila-philippines-2000x9142.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.4,
+            "overlayColor": "#35a0c6",
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "SHARE THIS PAGE!"
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-1o",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017&nbsp;ADPHOTO, Inc."
+        }
+      ]
+    },
+    "Robert Bosito.html": {
+      "settings": {
+        "title": "Shots by Robert Bosito | Adphoto Advertising Photography Philippines | Makati City, Metro Manila",
+        "meta_descr": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.7rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.758rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#222f3d"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#2f4154!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#34495e"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f1c40f!important"
+            },
+            ".btn": {
+              "font-size": "12px"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-1r",
+          "_params": {
+            "bgColor": "#34495e",
+            "fontSize": "0.7",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/adphoto-logo-white-507x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-p\">OUR WORK</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content5-1e\" aria-expanded=\"false\">TEAR SHEETS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">BLOG</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts3-y\" aria-expanded=\"false\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://www.facebook.com/AdphotoInc/\" target=\"_blank\"><span class=\"etl-icon icon-facebook mbr-iconfont mbr-iconfont-btn\"></span>visit us on FB</a></li>"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".mbr-section-text": {
+              "color": "#ffffff"
+            }
+          },
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features8",
+          "_anchor": "features8-1x",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "4",
+            "paddingBottom": 2,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1125.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#d35400",
+            "showNumber": false,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false,
+            "showImages": true
+          },
+          "number1": "1",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "title1": "ROBERT BOSITO",
+          "caption1": "With 18 years of experience working as a photographer’s assistant, Robert Bosito has gone through all types of shoots in any situation imaginable. In fact, most know Robert as Obet, G-nie’s loyal and trusty assistant. After much encouragement from G-nie and the rest of the Adphoto team, he is now a full pledged photographer. He has mastered the technicalities of both food and product photography with an expanding portfolio on talent, architectural and special effects. But his humble beginnings fuels his passion in sharing with new assistants and photographers of Adphoto the technical expertise as well as the life lessons he’s gathered in his years of experience with Adphoto. This makes him truly invaluable, and a remarkable master photographer in the making.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\"><span class=\"cm-icon cm-icon-arrowright mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/static1-1-600x750.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          }
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/food-robertbosito-2000x906-800x362.jpg",
+                "image": "@PROJECT_PATH@/assets/images/food-robertbosito-2000x906.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/food-robertbosito-2000x1565-800x626.jpg",
+                "image": "@PROJECT_PATH@/assets/images/food-robertbosito-2000x1565.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/food-robertbosito-2000x1526-800x610.jpg",
+                "image": "@PROJECT_PATH@/assets/images/food-robertbosito-2000x1526.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/food-robertbosito-2000x1154-800x461.jpg",
+                "image": "@PROJECT_PATH@/assets/images/food-robertbosito-2000x1154.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/food-robertbosito-2000x958-800x383.jpg",
+                "image": "@PROJECT_PATH@/assets/images/food-robertbosito-2000x958.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": 0,
+            "showText": false,
+            "filter": false,
+            "bgColor": "#FFFFFF",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-1w",
+          "articleLayout": false,
+          "allItem": "ALL",
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrowleft.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrowright.png\">"
+        },
+        {
+          "_styles": {
+            ".btn-social": {
+              "color": "#fff",
+              "height": "60px",
+              "width": "60px",
+              "line-height": "60px",
+              "font-size": "2rem"
+            },
+            ".mbr-section-title": {
+              "color": "#fff",
+              "font-size": "60px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-1t",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/2015-john-chua-aerial-corregidor-inn-manila-philippines-2000x9142.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.4,
+            "overlayColor": "#35a0c6",
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "SHARE THIS PAGE!"
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-1u",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017&nbsp;ADPHOTO, Inc."
+        }
+      ]
+    }
+  }
+}
